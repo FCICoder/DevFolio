@@ -1,0 +1,754 @@
+
+ 
+ header{
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../img/hero-bg.jpg);
+    background-attachment:fixed;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+  
+ }
+
+ nav{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+ }
+
+ nav div a[href="index.html"]{
+    font-size: 30px;
+ }
+
+#about .discrip h2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width:18%;
+    height: 3px;
+    background-color: #0078FF;
+    bottom: -10px;
+}
+
+ header div h2::after{
+    content: "";
+    animation: typing  18s infinite;
+    }
+
+    
+/* serv Section */
+#serv .pra p{
+    position:absolute;
+    top: 90px;
+}
+
+#serv .pra p::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color:#0078FF;
+}
+
+#serv div .icon {
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 500ms ease;
+}
+
+.circle {     
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+   
+}
+
+.circle i{
+    font-size: 40px;
+}
+
+.service:hover .circle{
+   background-color: rgb(0, 120, 255);
+    box-shadow: 0 0 0 10px #cfd1d3;
+}
+
+.service:hover .icon{
+    color: #fff;
+     
+}
+
+.service{ 
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);    
+}
+
+
+.cv{
+    background-image: url(../img/post-3.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 120, 255,.5);
+ }
+
+ .logos{
+padding-left: 43px;
+padding-bottom: 10px;
+ }
+ .cv .ball{
+    height: 70px;
+    width: 70px;
+     
+     
+/*     
+ margin-top: 110px;
+ margin-left: 37px; */
+    box-shadow: 0 0 0 10px #e1e3e5;
+ }
+ .ball i{
+  color: #cfd1d3;
+    font-size: 40px;
+}
+
+.porto{
+    margin-top: 120px;
+
+}
+/* quiry for service section  */
+@media only screen and (max-width: 768px) {
+    .cv{
+        background-image: url(../img/post-3.jpg);
+        background-size:cover;
+        background-position:center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height:1500px;
+        width: 100%;
+       display: flex;
+       justify-content: center;
+       
+        box-shadow: inset 0 0 0 1000px rgba(0, 120, 255,.5);
+     }
+
+     .logos{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+            margin: 0;       
+         }
+
+    .porto{
+        position: relative;
+        right: 50%;
+        transform: translate(50%, 50%);      
+      top: -100px;
+        }
+    .porto div:has(h2) {
+        padding-left: 33px;
+    }        
+}
+ /* End Services */
+
+ /* start portofolio */
+.coma p{
+ margin-top: 20px;
+}
+
+ #porto .coma p::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    bottom:-12px;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color:#0078FF;
+}
+.prof{
+    background-color: rgb(228, 224, 224);
+}
+
+.prof img{
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.prof:hover img{
+    scale: 1.5;
+}
+
+.job{
+    color: #0078FF;
+}
+
+.bgport{
+background-image: url(../img/overlay-bg.jpg);
+background-size:cover;
+background-position:center center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+height: 550px;
+
+width: 100%;
+box-shadow: inset 0 0 0 1000px rgba(0, 120, 255,.5);
+margin-bottom: 40px;
+}
+
+ 
+
+.carousel-caption  h5,.carousel-caption  p {
+
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+     
+     
+}
+
+.bgport .one button{
+width: 10px;
+height: 10px;
+transform: translate(0,-200%);
+     
+}
+
+
+
+ /*End portofolio  */
+/* Start blog */
+.algo p{
+    margin-top: 20px;
+   }
+   
+    #blog .algo p::after{
+       content: "";
+       position: absolute;
+       width: 40px;
+       height: 4px;
+       bottom:-12px;
+       left: 50%;
+       transform: translate(-50% ,-50%);
+       background-color:#0078FF;
+   }
+
+   .testo{
+    background-color: #dbddde;
+   }
+
+   .testo .nom >p{
+    background-color: #0062d3;
+    width: 120px;
+     height: 24px;
+     padding-top: 2px;
+     top:100%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+   }
+
+   .testo div a{
+    color: black;
+    transition: all .5s;
+   }
+
+   .testo div a:hover{
+    color: #0078FF;
+   }
+
+   .morgan img{
+    width: 10%;
+    margin-right: 3px;
+   }
+/* End blog */
+/* ****************************** */
+/* Start contact */
+#contact{
+    background-image: url(../img/overlay-bg.jpg);
+background-size:cover;
+background-position:center center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+height: 120vh;
+width: 100%;
+box-shadow: inset 0 0 0 1000px rgba(0, 120, 255,.5);
+
+}
+.message{
+    top: 15%;
+}
+
+#contact .descrip h2::before{
+    content: "";
+    position: absolute;
+    
+    width:10%;
+    height: 3px;
+    background-color: #0078FF;
+   top: 90px;
+}
+
+.button{
+    background-color:#0078FF ;
+    width: 28%;
+    height:50px;
+    margin-top: 10%;
+    transition: all .5s;
+}
+
+.button:hover{
+
+    background-color: #3590f7;
+}
+
+.eren .circle{
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all .5s;   
+}
+
+.eren .circle:hover {
+    box-shadow: 0 0 0 3px #cdced0;
+    background-color: #0078FF;
+}
+
+.eren .circle i{
+    font-size: 18px; 
+    color: black;
+    
+    transition: all .9;   
+}
+
+.eren .circle:hover i{
+    color: #cfd1d3;
+}
+
+
+/* end contact */
+/* ************************************************** */
+
+ /* footer */
+ footer {
+    
+    background: #0062d3;
+}
+
+/* for the top arrow */
+.topping {
+    position: fixed;
+    visibility: visible;
+    opacity: 1;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #0078ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.topping:hover{
+    opacity: .7;
+}
+
+body:has(#home:hover) .topping{
+    visibility:hidden;
+    opacity: 0;
+}
+
+body:has(#portoHome:hover) .topping{
+    visibility:hidden;
+    opacity: 0;
+}
+
+ 
+
+ @keyframes typing{
+    0%{    content: " |";}
+    1%{    content: " D |";}
+    2%{    content: " De |";}
+    3%{    content: " Des |";}
+    4%{    content: " Desi |";}
+    5%{    content: " Desig |";}
+    6%{    content: " Design |";}
+    7%{    content: " Designe |";}
+    8%{    content: " Designer |";}
+    9%{    content: " Designer ";}
+    10%{    content: " Designer|";}
+    10.5%{    content: " Designe |";}
+    11%{    content: " Design |";}
+    11.5%{    content: " Desig |";}
+    12%{    content: " Desi |";}
+    12.5%{    content: " Des |";}
+    13%{    content: " De |";}
+    14%{    content: " De ";}
+    15%{    content: " De |";}
+    16%{    content: " Dev |";}
+    17%{    content: " Deve |";}
+    18%{    content: " Devel |";}
+    19%{    content: " Develo |";}
+    20%{    content: " Develop |";}
+    21%{    content: " Develope |";}
+    22%{    content: " Developer |";}
+    23%{    content: " Developer ";}
+    24%{    content: " Developer |";}
+    24.5%{    content: " Develope |";}
+    25%{    content: " Develop |";}
+    25.5%{    content: " Develo |";}
+    26%{    content: " Devel |";}
+    26.5%{    content: " Deve |";}
+    27%{    content: " Dev |";}
+    27.5%{    content: " De |";}
+    28%{    content: " D |";}
+    28.5%{    content: " |";}
+    29.5%{    content: " ";}
+    30%{    content: " |";}
+    31%{    content: " F |";}
+    32%{    content: " Fr |";}
+    33%{    content: " Fre |";}
+    34%{    content: " Free |";}
+    35%{    content: " Freel |";}
+    36%{    content: " Freela |";}
+    37%{    content: " Freelan |";}
+    38%{    content: " Freelanc|";}
+    39%{    content: " Freelance |";}
+    40%{    content: " Freelancer |";}
+    41%{    content: " Freelancer ";}
+    42%{    content: " Freelancer |";}
+    42.5%{    content: " Freelance |";}
+    43%{    content: " Freelanc |";}
+    43.5%{    content: " Freelan |";}
+    44%{    content: " Freela |";}
+    44.5%{    content: " Freel |";}
+    45%{    content: " Free |";}
+    45.5%{    content: " Fre |";}
+    46%{    content: " Fr |";}
+    46.5%{    content: " F |";}
+    48%{    content: " ";}
+    49%{    content: " |";}
+   
+    50%{    content: " P |";}
+    51%{    content: " Ph |";}
+    52%{    content: " Pho |";}
+    53%{    content: " Phot |";}
+    54%{    content: " Photo |";}
+    55%{    content: " Photog |";}
+    56%{    content: " Photogr |";}
+    57%{    content: " Photogra |";}
+    58%{    content: " Photograp |";}
+    59%{    content: " Photograph |";}
+    60%{    content: " Photographe |";}
+    61%{    content: " Photographer |";}
+    63%{    content: " Photographer  ";}
+    66%{    content: " Photographer |";}
+    66.5%{    content: " Photographe |";}
+    67%{    content: " Photograph |";}
+    67.5%{    content: " Photograp |";}
+    68%{    content: " Photogra |";}
+    68.5%{    content: " Photogr |";}
+    69%{    content: " Photog |";}
+    69.5%{    content: " Photo |";}
+    70%{    content: " Phot |";}
+    71.5%{    content: " Pho |";}
+    72%{    content: " Ph |";}
+    72.5%{    content: " P |";}
+    73%{    content: "  |";}
+    73.4%{    content: "  ";}
+    78%{    content: "  |";}
+    83%{    content: "   ";}
+    88%{    content: "  |";}
+    93%{    content: "   ";}
+    100%{    content: "  |";}
+     
+            
+ 
+}
+
+
+
+/* ********************************************************************************************************* */
+/* Start the html Portofolio */
+#portoHome{
+    background-image: url(../img/overlay-bg.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 120, 255,.8);
+}
+
+.dgport .many  button{
+  background-color:#0078FF;
+    width:10px;
+    height: 10px;
+    position: relative;
+    top: 50px;
+}
+
+.dgport .many button:not(.active){
+
+    background-color: #cdced0;
+}
+
+/* *********************************** */
+/* bolgDetails */
+/* start section search */
+#search .leg ul{
+    border-left: 4px solid #0078ff;
+    margin-top: 1rem;
+    
+}
+.leg li{
+    padding-left: 17px;
+}
+
+.leg blockquote{
+    border-left: 4px solid #0078ff;
+    margin-top: 1rem;
+
+    height: 100px;
+}
+
+.leg blockquote p{
+    padding-top:17px;
+    padding-left: 17px;
+}
+
+.arm h3 {
+    border-left: 5px solid #0078ff;
+    margin-left: 20%;
+}
+
+.toungue h3::after{
+   
+        content: "";
+        position: absolute;
+        left: 0;
+        width:18%;
+        height: 3px;
+        background-color: #0078FF;
+        bottom: -10px;
+     
+}
+
+.mouth h2::after{
+   
+    content: "";
+    position: absolute;
+    left: 0;
+    width:18%;
+    height: 3px;
+    background-color: #0078FF;
+    bottom: -10px;
+ 
+}
+
+.arm button{
+   height: 2.5rem;
+   background-color: #0078FF;
+   margin-left: 0;
+   width: 60px;
+   transition:all ;
+   border-radius: 0;
+}
+.arm button:hover{
+    background-color: #0078FF;
+}
+
+.arm input{
+    margin-left: 30%;
+    width: 50%;
+    display: inline;
+    border-right: 0;
+    margin-right: 0;
+    border-radius: 0;
+}
+
+.nose li a{
+    color: black;
+    transition: all,.5s;
+}
+
+.nose li a:hover{
+    color: #0078FF;
+}
+
+.nose ul :nth-child(1) ::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 3px;
+    left: 0;
+    background-color: #0078ff;
+    top: 10px;
+}
+
+
+.nose ul :nth-child(2) ::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 3px;
+    left: 0;
+    background-color: #0078ff;
+    top: 35px;
+}
+
+
+.nose ul :nth-child(3) ::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 3px;
+    left: 0;
+    background-color: #0078ff;
+    top: 83px;
+}
+
+
+.nose ul :nth-child(4) ::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 3px;
+    left: 0;
+    background-color: #0078ff;
+    top: 108px;
+}
+
+
+.nose ul :nth-child(5) ::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 3px;
+    left: 0;
+    background-color: #0078ff;
+    top: 154px;
+}
+
+.ears ul :nth-child(1) ::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 3px;
+    left: 0;
+    background-color: #0078ff;
+    top: 10px;
+}
+
+.ears ul :nth-child(2) ::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 3px;
+    left: 0;
+    background-color: #0078ff;
+    top: 37px;
+}
+
+.ears ul :nth-child(3) ::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 3px;
+    left: 0;
+    background-color: #0078ff;
+    top: 60px;
+}
+
+.ears ul :nth-child(4) ::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 3px;
+    left: 0;
+    background-color: #0078ff;
+    top: 83px;
+}
+
+.ears ul :nth-child(5) ::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 3px;
+    left: 0;
+    background-color: #0078ff;
+    top: 132px;
+}
+.ears li a{
+    color: black;
+    transition: all,.5s;
+}
+
+.ears li a:hover{
+    color: #0078FF;
+}
+
+.nose ul{
+    margin-left: 20%;
+}
+
+.ears ul{
+    margin-left: 20%;
+}
+
+.eyes li a{
+    background-color: #0078FF;
+    
+
+}
+.eyes ul{
+    margin-left: 10%;
+}
+
+.eyes ul li:nth-child(1){
+    position: absolute;
+    left: 20%;
+    
+}
+.eyes ul li:nth-child(2){
+    position: absolute;
+    left: 37%;
+    
+}
+.eyes ul li:nth-child(3){
+    position: absolute;
+    left: 59%;
+    
+}
+.eyes ul li:nth-child(4){
+    position: absolute;
+    top: 90%;
+    left: 20%;
+   
+}
+.eyes ul li:nth-child(5){
+    position: absolute;
+    top: 90%;
+    left: 50%;
+   
+}
+.eyes ul li:nth-child(6){
+    position: absolute;
+    top: 170%;
+    left: 20%;
+    
+}
+
+
+.imge img{
+    width: 50%;
+}
+/* End section search */
